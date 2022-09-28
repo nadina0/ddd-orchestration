@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<service_interface>
+
+  <query name="temperature">
+    <parameters>
+      <parameter predicate="country_search" format="value"/>
+      <parameter predicate="city_search" format="value"/>
+      <parameter predicate="what_unit" format="value" optional="true"/>
+    </parameters>
+    <target>
+      <http endpoint="http://ddds-http-service/temperature"/>
+    </target>
+  </query>
+
+
+  <query name="weather">
+    <parameters>
+      <parameter predicate="country_search" format="value"/>
+      <parameter predicate="city_search" format="value"/>
+    </parameters>
+    <target>
+      <http endpoint="http://ddds-http-service/weather"/>
+    </target>
+  </query>
+
+
+
+</service_interface>

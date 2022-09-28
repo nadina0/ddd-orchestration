@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ontology name="WeatherAppOntology">
+
+
+  <action name="ask_weather"/>
+
+  <sort name="city"/>
+  <sort name="country"/>
+  <sort name="unit"/>
+
+
+  <predicate name="country_search" sort="country"/>
+  <predicate name="city_search" sort="city"/>
+  <predicate name="temperature" sort="string"/>
+  <predicate name="weather" sort="string"/>
+  <predicate name="what_unit" sort="unit"/>
+
+  <individual name="city_london" sort="city"/>
+  <individual name="country_uk" sort="country"/>
+  <individual name="country_norway" sort="country"/>
+  <individual name="city_oslo" sort="city"/>
+  <individual name="unit_kelvin" sort="unit"/>
+  <individual name="unit_fahrenheit" sort="unit"/>
+  
+
+    <sort name="city" dynamic="true"/>
+    <sort name="country" dynamic="true"/>
+    <sort name="unit" dynamic="true"/>
+
+
+</ontology>

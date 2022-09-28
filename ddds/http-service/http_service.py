@@ -4,6 +4,7 @@ import json
 
 from flask import Flask, request
 from jinja2 import Environment
+import requests
 
 app = Flask(__name__)
 environment = Environment()
@@ -149,3 +150,37 @@ def action_success_response():
         mimetype='application/json'
     )
     return response
+
+API_KEY='1828f2c62e9e9918632bd645fb9f9bd9'
+
+def get_current_data(city, country, unit="metric"):
+    url = f"http://api.openweathermap.org/data/2.5/weather?q={city},{country}&units={unit}&appid={API_KEY}"
+    print(url)
+    response = requests.get(url)
+    data = response.json()
+    return data
+
+@app.route("/temperature", methods=['POST'])
+def get_temperature():
+    facts = request.get_json()["context"]["facts"]
+    city = facts["city_search"]["grammar_entry"]
+    country = facts["country_search"]["grammar_entry"]
+    api_response = get_current_data(city, country)
+    print(api_response)
+    temperature = str(api_response['main']['temp'])
+    print(temperature)
+    return query_response(value=temperature, grammar_entry=None)
+
+
+@app.route("/weather", methods=['POST'])
+def get_weather():
+    facts = request.get_json()["context"]["facts"]
+    city = facts["city_search"]["grammar_entry"]
+    country = facts["country_search"]["grammar_entry"]
+    api_response = get_current_data(city, country)
+    print(api_response)
+    temperature = str(api_response['main']['temp'])
+    print(temperature)
+    return query_response(value=temperature, grammar_entry=None)
+
+

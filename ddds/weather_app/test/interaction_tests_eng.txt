@@ -1,0 +1,68 @@
+--- main menu
+S> Do you want to know about the temperature or know the current weather?
+--- asking the temperature (incremental)
+U> I want to know the temperature
+S> What country?
+U> UK
+S> What city?
+U> London
+S> The temperature is * degrees.
+
+--- asking the temperature (oneshot)
+S> Do you want to know about the temperature or know the current weather?
+U> What is the temperature in UK in London
+S> The temperature is * degrees.
+
+--- asking the temperature (oneshot)
+S> Do you want to know about the temperature or know the current weather?
+U> What is the temperature in Norway in Oslo
+S> The temperature is * degrees.
+
+--- asking the temperature (overanswering)
+S> Do you want to know about the temperature or know the current weather?
+U> What is the temperature
+S> What country?
+U> In UK in London
+S> The temperature is * degrees.
+
+--- asking the weather
+S> Do you want to know about the temperature or know the current weather?
+U> What is the weather
+S> What country?
+U> UK
+S> What city?
+U> London
+S> The weather is *.
+
+--- asking the temperature with kelvin (incremental)
+S> Do you want to know about the temperature or know the current weather?
+U> I want to know the temperature in kelvin
+S> What country?
+U> UK
+S> What city?
+U> London
+S> The temperature is * degrees.
+
+--- asking the temperature with kelvin (incremental)
+S> Do you want to know about the temperature or know the current weather?
+U> I want to know the temperature in Kelvin
+S> What country?
+U> UK
+S> What city?
+U> London
+S> The temperature is * degrees.
+
+--- asking the temperature with kelvin (incremental)
+S> Do you want to know about the temperature or know the current weather?
+U> I want to know the temperature in Fahrenheit
+S> What country?
+U> UK
+S> What city?
+U> London
+S> The temperature is * degrees.
+
+
+
+
+
+

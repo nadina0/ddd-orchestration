@@ -61,8 +61,12 @@
  <answer speaker="user">
     <one-of>
       <item>In<slot predicate="country_search"/> in <slot predicate="city_search"/> </item>
+      <item><slot predicate="country_search"/> </item>
+      <item><slot predicate="city_search"/> </item>
     </one-of>
   </answer>
+
+  
 
 
 
@@ -103,7 +107,6 @@
   </individual>
 
   
-
   <question speaker="system" predicate="country_search" type="wh_question">
     What country
   </question>

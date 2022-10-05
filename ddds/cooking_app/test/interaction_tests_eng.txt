@@ -1,4 +1,4 @@
---- main menu
+--- omelette
 S> What would you like to do?
 U> I want to prepare a French omelette
 S> Crack three eggs on a bowl and whisk with a pinch of salt.
@@ -12,3 +12,17 @@ U> done
 S> After a few seconds, transfer the omelette onto a plate.
 U> done
 S> Amazing! You have finished preparing a French omelette. Bon appétit!.
+
+
+--- salad
+S> What would you like to do?
+U> I want to make a salad
+S> Cut all your vegetables.
+U> done
+S> Put your vegetables in a bowl.
+U> done
+S> Add salt, pepper and olive oil.
+U> done
+S> Mix everything.
+U> done
+S> Great, your salad is ready.

@@ -1,7 +1,7 @@
 [
 
     {
-        "current_plan_item": "findout(?set([goal(perform(omelette_recipe_pred)), goal(perform(salad_recipe_pred))]))",
+        "current_plan_item": "findout(?set([goal(perform(make_omelette)), goal(perform(make_salad))]))",
         "semantic_expression": "request(make_omelette)",
         "alternative": {
             "visual_information": [
@@ -19,7 +19,7 @@
         }
     },
     {
-        "current_plan_item": "findout(?set([goal(perform(omelette_recipe_pred)), goal(perform(salad_recipe_pred))]))",
+        "current_plan_item": "findout(?set([goal(perform(make_omelette)), goal(perform(make_salad))]))",
         "semantic_expression": "request(make_salad)",
         "alternative": {
             "visual_information": [

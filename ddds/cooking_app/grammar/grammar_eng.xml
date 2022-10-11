@@ -24,13 +24,13 @@
   <action name="make_omelette">
     <one-of>
 
-      <item>French omelette</item>     
+      <item>make a French omelette</item>     
     </one-of>
   </action>
 
   <action name="make_salad">
     <one-of>
-      <item>salad</item>
+      <item>make a salad</item>
     </one-of>
   </action>
 

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <domain name="CookingAppDomain" is_super_domain="true">
 
-  <goal type="perform" action="top">
+ <goal type="perform" action="top">
     <plan>
       <forget_all/>
       <findout type="alt_question">
         <alt>
-          <resolve type="wh_question" predicate="make_omelette"/>
+          <perform action="make_omelette"/>
         </alt>
         <alt>
-          <resolve type="wh_question" predicate="make_salad"/>
+          <perform action="make_salad"/>
         </alt>
       </findout>
     </plan>

@@ -8,6 +8,8 @@
 <action name="whisk_eggs"/>
 <action name="mix_everything"/>
 
+<predicate name="omelette_recipe_pred" sort="string"/>
+<predicate name="salad_recipe_pred" sort="string"/>
 
 
 <predicate name="done_cooking" sort="finished_action"/>

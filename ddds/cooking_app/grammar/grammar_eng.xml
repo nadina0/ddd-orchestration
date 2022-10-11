@@ -60,6 +60,14 @@
 
   <individual name="salad_recipe"> the salad recipe</individual>
 
+  <question speaker="all" predicate="omelette_recipe_pred">
+    how to make an omelette
+  </question>
+
+  <question speaker="all" predicate="salad_recipe_pred">
+    how to make a salad
+  </question>
+
 
   <individual name="finished_omelette">
     <one-of>

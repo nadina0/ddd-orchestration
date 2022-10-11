@@ -23,18 +23,14 @@
 
   <action name="make_omelette">
     <one-of>
-      <item>I want to prepare a French omelette</item>
-      <item>I want to make an omelette</item>
-      <item>omelette</item>
+
       <item>French omelette</item>     
     </one-of>
   </action>
 
   <action name="make_salad">
     <one-of>
-      <item>I want to make a salad</item>
       <item>salad</item>
-      <item>How do i make a salad</item>
     </one-of>
   </action>
 

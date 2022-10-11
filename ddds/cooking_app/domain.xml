@@ -6,10 +6,10 @@
       <forget_all/>
       <findout type="alt_question">
         <alt>
-          <resolve type="wh_question" predicate="omelette_recipe_pred"/>
+          <resolve type="wh_question" predicate="make_omelette"/>
         </alt>
         <alt>
-          <resolve type="wh_question" predicate="salad_recipe_pred"/>
+          <resolve type="wh_question" predicate="make_salad"/>
         </alt>
       </findout>
     </plan>

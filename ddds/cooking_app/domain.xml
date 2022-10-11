@@ -5,12 +5,15 @@
     <plan>
       <forget_all/>
       <findout type="alt_question">
-        <alt><perform action="make_omelette"/></alt>
-        <alt><perform action="make_salad"/></alt>
+        <alt>
+          <resolve type="wh_question" predicate="omelette_recipe_pred"/>
+        </alt>
+        <alt>
+          <resolve type="wh_question" predicate="salad_recipe_pred"/>
+        </alt>
       </findout>
     </plan>
   </goal>
-
 
 
   <goal type="perform" action="make_omelette">

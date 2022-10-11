@@ -1,4 +1,41 @@
 [
+
+    {
+        "current_plan_item": "findout(?set([goal(perform(omelette_recipe_predicate)), goal(perform(salad_recipe_predicate))]))",
+        "semantic_expression": "request(omelette_recipe_predicate)",
+        "alternative": {
+            "visual_information": [
+                {
+                    "attribute": "name",
+                    "type": "text/plain",
+                    "value": "French Omelette"
+                },
+                {
+                    "attribute": "image",
+                    "type": "image/jpeg",
+                    "value": "https://retete.unica.ro/wp-content/uploads/2021/02/omleta_sufleu.jpg"
+                }
+            ]
+        }
+    },
+    {
+        "current_plan_item": "findout(?set([goal(perform(omelette_recipe_predicate)), goal(perform(salad_recipe_predicate))]))",
+        "semantic_expression": "request(salad_recipe_predicate)",
+        "alternative": {
+            "visual_information": [
+                {
+                    "attribute": "name",
+                    "type": "text/plain",
+                    "value": "Salad"
+                },
+                {
+                    "attribute": "image",
+                    "type": "image/jpeg",
+                    "value": "https://mariapopa.ro/wp-content/uploads/2020/07/Salata-de-vara-cu-rosii-castraveti-si-ceapa.jpg"
+                }
+            ]
+        }
+    },
     {
         "current_plan_item": "findout(?X.example_predicate(X), set([example_predicate(individual_1), example_predicate(individual_2), example_predicate(individual_3)]))",
         "semantic_expression": "answer(example_predicate(individual_1))",

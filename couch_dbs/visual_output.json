@@ -1,31 +1,61 @@
 [
     {
-        "semantic_expression": "some(semantic_expression_of_a_move)",
+        "semantic_expression": "request(stir_eggs)",
         "visual_information": [
             {
                 "attribute": "name",
                 "type": "text/plain",
-                "value": "Some text to show if the image cannot be shown"
+                "value": "Stir the eggs in the pan."
             },
             {
                 "attribute": "image",
                 "type": "image/jpeg",
-                "value": "https://some-image-url"
+                "value": "https://media.eggs.ca/assets/Eggs101/_resampled/FillWyI5NjAiLCI1NTAiXQ/0L1C0013.jpg"
             }
         ]
     },
     {
-        "semantic_expression": "another(semantic_expression_of_a_move)",
+        "semantic_expression": "request(transfer_plate)",
         "visual_information": [
             {
                 "attribute": "name",
                 "type": "text/plain",
-                "value": "Another text to show if the image cannot be shown"
+                "value": "Transfer your omelette to a plate."
             },
             {
                 "attribute": "image",
                 "type": "image/jpeg",
-                "value": "https://another-image-url"
+                "value": "https://media.eggs.ca/assets/Eggs101/_resampled/FillWyI5NjAiLCI1NTAiXQ/0L1C0124.jpg"
+            }
+        ]
+    },
+    {
+        "semantic_expression": "request(cut_vegetables)",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "Cut all of your vegetables."
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://feelgoodfoodie.net/wp-content/uploads/2020/03/How-to-Cut-a-Tomato-12-e1583790746915.jpg"
+            }
+        ]
+    },
+    {
+        "semantic_expression": "request(add_seasoning)",
+        "visual_information": [
+            {
+                "attribute": "name",
+                "type": "text/plain",
+                "value": "Add seasonings to your salad."
+            },
+            {
+                "attribute": "image",
+                "type": "image/jpeg",
+                "value": "https://img.freepik.com/premium-photo/pouring-olive-oil-fresh-vegetable-salad-mediterranean-cuisine-greek-salad-white-table-served-with-healthy-food-ingredients_88281-4416.jpg?w=2000"
             }
         ]
     }
